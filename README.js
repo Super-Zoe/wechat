@@ -3,7 +3,6 @@ javascript:(function(){
   var bilibili= 'https://search.bilibili.com/all?keyword=';
   var query = prompt('video query');
   if(query != '') {
-    document.location.href = youtube + query;
-    document.location.href = bilibili + query;
+    window.open(youtube + query);
   }
 })();
