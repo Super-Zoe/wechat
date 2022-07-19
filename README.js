@@ -4,7 +4,7 @@ javascript:(function(){
   var TecentVideo= 'https://v.qq.com/x/search/?q=';
   var iQiYi='https://so.iqiyi.com/so/q_';
   var YouKu= 'https://so.youku.com/search_video/q_';
-  var query = prompt('video query');
+  var query = prompt('video query','_self');
   
   if(query != '') {
     window.open(youtube + query);
